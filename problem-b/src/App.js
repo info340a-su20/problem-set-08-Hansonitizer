@@ -73,7 +73,7 @@ class BreedNav extends Component {
     return(
       <nav id="breedLinks">
         <h2>Pick a Breed</h2>
-        <ul class="list-unstyled">
+        <ul className="list-unstyled">
           {breedArray}
         </ul>            
       </nav>
@@ -114,7 +114,7 @@ class PetList extends Component {
     return(
       <div>
       <h2>Dogs for Adoption</h2>
-      <div class="card-deck">
+      <div className="card-deck">
         {petCardArr}
       </div>
       </div>
